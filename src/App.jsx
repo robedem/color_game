@@ -37,6 +37,9 @@ const App = () => {
         initializeGame();
       }, 1000); // Wait 1 second before changing the color
     } else {
+      setTimeout(() => {
+        initializeGame();
+      }, 1000);
       setStatus("Wrong! Try again. 😢");
       setIsCorrect(false);
     }
