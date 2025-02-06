@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { generateRandomColor, generateColorOptions } from "./utils";
-import ColorBox from "./components/colorbox";
+import ColorBox from "./components/colorBox";
 import ColorOptions from "./components/ColorOptions";
-import GameStatus from "./components/gamestatus";
+import GameStatus from "./components/GameStatus";
 import Score from "./components/score";
-import NewGameButton from "./components/newgamebutton";
+import NewGameButton from "./components/NewGameButton";
 import "./App.css";
 
 const App = () => {
